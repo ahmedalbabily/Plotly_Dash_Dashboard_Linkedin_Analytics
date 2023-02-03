@@ -44,7 +44,7 @@ app.layout = dbc.Container([
     dbc.Row([
         dbc.Col([
             dbc.Card([
-                dbc.CardImg(src='/assets/linkedin-logo2.png') # 150px by 45px
+                dbc.CardImg(src='https://i.ibb.co/qs5cPy3/linkedin-logo2.png') 
             ],className='mb-2'),
             dbc.Card([
                 dbc.CardBody([
