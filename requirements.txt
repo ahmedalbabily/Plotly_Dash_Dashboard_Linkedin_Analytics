@@ -2,4 +2,5 @@ dash==2.6.0
 pandas
 dash_extensions
 dash_bootstrap_components
+wordcloud
 gunicorn
