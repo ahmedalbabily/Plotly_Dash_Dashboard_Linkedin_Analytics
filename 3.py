@@ -21,18 +21,18 @@ options = dict(loop=True, autoplay=True, rendererSettings=dict(preserveAspectRat
 
 
 # Importing the data 
-df_cnt = pd.read_csv(".\Connections.csv")
+df_cnt = pd.read_csv("https://raw.githubusercontent.com/ahmedalbabily/Plotly_Dash_Dashboard_Linkedin_Analytics/main/Connections.csv")
 df_cnt["Connected On"] = pd.to_datetime(df_cnt["Connected On"])
 df_cnt["month"] = df_cnt["Connected On"].dt.month
 df_cnt['month'] = df_cnt['month'].apply(lambda x: calendar.month_abbr[x])
 
-df_invite = pd.read_csv(".\Invitations.csv")
+df_invite = pd.read_csv("https://raw.githubusercontent.com/ahmedalbabily/Plotly_Dash_Dashboard_Linkedin_Analytics/main/Invitations.csv")
 df_invite["Sent At"] = pd.to_datetime(df_invite["Sent At"])
 
-df_react = pd.read_csv(".\Reactions.csv")
+df_react = pd.read_csv("https://raw.githubusercontent.com/ahmedalbabily/Plotly_Dash_Dashboard_Linkedin_Analytics/main/Reactions.csv")
 df_react["Date"] = pd.to_datetime(df_react["Date"])
 
-df_msg = pd.read_csv(".\messages.csv")
+df_msg = pd.read_csv("https://raw.githubusercontent.com/ahmedalbabily/Plotly_Dash_Dashboard_Linkedin_Analytics/main/messages.csv")
 df_msg["DATE"] = pd.to_datetime(df_msg["DATE"])
 
 
