@@ -1,9 +1,3 @@
 dash==2.6.0
 pandas
 gunicorn
-dash_html_components
-dash_core_components
-dash_extensions
-dash_bootstrap_components
-plotly
-wordcloud
