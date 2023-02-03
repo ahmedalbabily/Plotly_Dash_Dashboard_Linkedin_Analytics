@@ -3,7 +3,6 @@ pandas
 gunicorn
 dash_html_components
 dash_core_components
-dash-dependencies
 dash_extensions
 dash_bootstrap_components
 plotly
